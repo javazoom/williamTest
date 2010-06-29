@@ -22,6 +22,7 @@ public class TimeSchedule {
         System.out.println(format.format(date));
 
 
+        
         //具有格式的时间表示
 //        DateFormat format2 = DateFormat.getDateInstance(DateFormat.FULL, Locale.CHINA);
         DateFormat format2 = DateFormat.getDateTimeInstance();
