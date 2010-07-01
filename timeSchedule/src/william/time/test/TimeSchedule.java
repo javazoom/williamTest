@@ -18,6 +18,7 @@ public class TimeSchedule {
         System.out.println(Calendar.getInstance().getTime());
 
         Date date = Calendar.getInstance().getTime();
+
         DateFormat format = DateFormat.getInstance();
         System.out.println(format.format(date));
 
@@ -27,6 +28,11 @@ public class TimeSchedule {
 //        DateFormat format2 = DateFormat.getDateInstance(DateFormat.FULL, Locale.CHINA);
         DateFormat format2 = DateFormat.getDateTimeInstance();
         System.out.println(format2.format(date));
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(new Date());
+        System.out.println(calendar.getTime());
+
     }
     
 }
